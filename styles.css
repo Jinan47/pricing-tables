@@ -1,0 +1,122 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #8f94ea;
+  --text-color: #484c60;
+  --background: #f5f5ff;
+  --card-bg: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+/* Pricing Container */
+.pricings-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.pricing-card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-card h1 {
+  font-size: 2.8em;
+  margin-top: 10px;
+}
+
+.pricing-card span {
+  font-size: 0.6em;
+}
+
+.divider {
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.2;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.pricing-card p {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Learn More Button */
+.pricing-card a {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.pricing-card a:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* Highlight Plan */
+.highlight {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.highlight a {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.highlight a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricings-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
