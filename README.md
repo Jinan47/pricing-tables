@@ -39,7 +39,7 @@ This is my solution to the [Pricing Component with Toggle challenge on Frontend 
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site]([https://Jinan47.github.io/pricing-tables](https://pricing-tables-kappa.vercel.app/))
+🔗 [View Live Site](https://pricing-tables-kappa.vercel.app)
 📂 [View on GitHub](https://github.com/Jinan47/pricing-tables)
 
 ---
